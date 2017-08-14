@@ -21,7 +21,7 @@ var geocodeAddress = (providedAddress, callback) => {
                 longitude: body.results[0].geometry.location.lng
             });
         }
-    })
-}
+    });
+};
 
 module.exports.geocodeAddress = geocodeAddress;
